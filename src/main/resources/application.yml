@@ -1,0 +1,12 @@
+com:
+  jms:
+    user: jms vikram
+    password: jms 1234
+    dburl: someUrl
+
+---
+spring:
+  profiles: de
+com:
+  jms:
+    user: jms vikram profile specific
